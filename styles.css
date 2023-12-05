@@ -35,14 +35,19 @@ body {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
+    margin: 5px;
 }
 
-.header-l1 {
+.header-l1,
+.header-l2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.header-l2 {
+.left,
+.right {
     display: flex;
     flex-wrap: wrap;
 }
