@@ -69,11 +69,13 @@ main {
 .main-news {
     grid-row: 1;
     grid-column: 4;
+    overflow: hidden;
 }
 
 .main-trending {
     grid-row: 2;
     grid-column: 4;
+    overflow: hidden;
 }
 
 /* select id */
