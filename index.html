@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
+    <!-- Search icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Alert icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -32,25 +38,29 @@
     <div class="header">
         <div class="header-l1">
             <div class="header-l1 left">
-                <button>Search</button>
-                <input type="text" />
+                <button><span class="material-symbols-outlined">
+                        search
+                    </span></button>
+                <input type="text" id="search-bar" />
             </div>
             <div class="header-l1 right">
-                <button>Bell</button>
-                <button>User icon</button>
+                <button><span class="material-symbols-outlined">
+                        notifications_active
+                    </span></button>
+                <button class="user-btn"></button>
                 <h2>Morgan Oakley</h2>
             </div>
         </div>
         <div class="header-l2">
             <div class="left">
-                <button>User icon</button>
+                <button class="user-btn"></button>
                 <h3>Hi there,</h3>
                 <h2>Morgan Oakley</h2>
             </div>
             <div class="right">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <button class="btn-round">New</button>
+                <button class="btn-round">Upload</button>
+                <button class="btn-round">Share</button>
             </div>
         </div>
     </div>

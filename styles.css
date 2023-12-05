@@ -39,6 +39,7 @@ body {
     margin: 5px;
 }
 
+/* Select multiple classes at once */
 .header-l1,
 .header-l2 {
     display: flex;
@@ -56,4 +57,31 @@ main {
     grid-column: 2 / 6;
     grid-row: 2 / 6;
     background-color: var(--clr-primary-2);
+}
+
+/* select id */
+#search-bar {
+    background-color: var(--clr-primary-2);
+    border-radius: 15px;
+}
+
+.user-btn {
+    border-radius: 50%;
+    background-image: url(raccoon.jpg);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    min-width: 50px;
+}
+
+.btn-round {
+    background-color: var(--clr-primary-1);
+    color: var(--clr-secondary);
+    border-radius: 25px;
+    width: 75px;
+    height: 3rem;
+    margin-left: 15px;
+    margin-right: 15px;
 }
