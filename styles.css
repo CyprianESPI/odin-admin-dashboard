@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px solid red;
 }
 
 /*border: 2px solid red;*/
@@ -36,7 +35,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(1, 1fr);
     row-gap: 5px;
-    margin: 5px;
 }
 
 /* Select multiple classes at once */
@@ -74,6 +72,10 @@ main {
     /* Do not repeat the image */
     background-size: cover;
     min-width: 50px;
+}
+
+button {
+    border: 0px;
 }
 
 .btn-round {
