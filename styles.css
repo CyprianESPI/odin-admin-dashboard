@@ -7,6 +7,13 @@
 
 /*border: 2px solid red;*/
 
+:root {
+    --clr-primary-1: #222831;
+    --clr-primary-2: #393E46;
+    --clr-secondary: #00ADB5;
+    --clr-accent: #EEEEEE;
+}
+
 body {
     height: 100vh;
     display: grid;
@@ -17,14 +24,18 @@ body {
 .side-bar {
     grid-column: 1;
     grid-row: 1 / 6;
+    background-color: var(--clr-primary-1);
+    color: var(--clr-secondary);
 }
 
 .header {
     grid-column: 2 / 6;
     grid-row: 1;
+    background-color: var(--clr-accent);
 }
 
 main {
     grid-column: 2 / 6;
     grid-row: 2 / 6;
+    background-color: var(--clr-primary-2);
 }
