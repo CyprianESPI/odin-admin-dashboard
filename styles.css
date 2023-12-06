@@ -122,6 +122,9 @@ main>* {
     background-color: var(--clr-primary-2);
     border-radius: 15px;
     width: 30vw;
+    color: var(--clr-accent);
+    padding: 10px;
+    font-size: large;
 }
 
 .user-btn {
