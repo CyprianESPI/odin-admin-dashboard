@@ -25,7 +25,17 @@ body {
     grid-row: 1 / 6;
     background-color: var(--clr-primary-1);
     color: var(--clr-secondary);
+
+    padding-left: 20px;
 }
+
+li {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+
 
 .header {
     grid-column: 2 / 6;
